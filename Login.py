@@ -7,7 +7,7 @@ def first_window() :
     f_window.geometry("300x200")
     f_window.resizable(0 , 0)
 
-    f_window.iconbitmap("text.ico")
+    # f_window.iconbitmap("text.ico")
 
     f_frame = tk.Frame(f_window , padx = 20 , pady = 20)
     f_frame.pack(expand = True)
@@ -56,7 +56,7 @@ def second_window() :
     s_window.title("App")
     s_window.geometry("300x200")
     
-    s_window.iconbitmap("text.ico")
+    # s_window.iconbitmap("text.ico")
 
     s_frame = tk.Frame(s_window , padx = 20 , pady = 20)
     s_frame.pack(expand = True)
